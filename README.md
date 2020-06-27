@@ -1,11 +1,11 @@
 # private-component-lib
 
 # Usage 
-....
- const sum = require("cb-add-two-num");
+
+const sum = require("cb-add-two-num");
  
- export default function addNumbers() {
+export default function addNumbers() {
   return (
-        {sum.default(10, 100)}
+        {sum.default(10, 100)} // 2 arguments 10,20
   );
 }
